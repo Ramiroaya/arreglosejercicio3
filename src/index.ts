@@ -9,6 +9,6 @@ btnEnviar1.addEventListener("click", () => {
     arreglo[indice] = prompt("Ingrese el nombre en el indice" + indice);
   }
   for (indice = 0; indice < tamañoArreglo; indice++) {
-    console.log("El Nombre en el" + indice + "  es:  " + arreglo[indice]);
+    console.log("El Nombre en el indice   " + indice + "  es:  " + arreglo[indice]);
   }
 });
